@@ -26,7 +26,10 @@ img {
   height: auto;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
@@ -71,20 +74,15 @@ h1, h2, h3, h4{
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-.poster__foto{
-  width: 250px;
+.poster__foto {
   margin-right: 30px;
 }
 
-.movie__info{
+.movie__info {
   padding-top: 20px;
   padding-bottom: 20px;
-    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-}
-
-.actor__foto {
-  width: 100px;
 }
 
 .searchForm {
@@ -97,7 +95,7 @@ h1, h2, h3, h4{
   border: 1px solid black;
   border-radius: 3px;
   overflow: hidden;
-} 
+}
 .search__input {
   width: 100%;
   font: inherit;
